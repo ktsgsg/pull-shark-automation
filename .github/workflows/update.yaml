@@ -3,6 +3,7 @@ name: achievement-collector
 on:
   schedule:
     - cron: '*/6 * * * *'
+  workflow_dispatch: 
 
 jobs:
   block_update:
